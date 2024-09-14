@@ -1,0 +1,2648 @@
+*{
+    margin: 0px;
+}
+
+.main{
+    height: 15000px;
+    width:100% ;
+}
+.top_menu{
+    height: 70px;
+    width: 100%;
+    background-color: #00ADB5;
+    float: left;
+}
+
+@media(max-width:651px){
+    .top_menu{
+        display: inline-block;
+    }
+}
+@media(max-width:780px){
+    .top_menu{
+        display: none;
+    }
+}
+@media(min-width:781px){
+    .top_menu{
+        display: inline-block;
+    }
+}
+@media(min-width:1200px){
+    .top_menu{
+        display: inline-block;
+    }
+}
+.contact_div{
+    height: 70px;
+    width: 100%;
+    /* background-color: black; */
+    float: left;
+}
+
+.contact_left{
+    height: 70px;
+    width: 50%;
+    /* background-color: slategray; */
+    float: left;
+}
+
+.contact_left ul{
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.contact_left ul li{
+    color: white;
+    margin-left: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.contact_right{
+    height: 70px;
+    width: 50%;
+    /* background-color: gray; */
+    float: left;
+}
+
+.contact_right ul{
+    margin-top: 15px;
+    margin-right: 15px;
+    float: right;
+}
+.contact_right ul li{
+    margin-right:20px;
+    padding-top:10px;
+    height:30px;
+    width:40px;
+    text-align:center;
+    color: white;
+    background-color:rgb(38,185,192);
+    display:inline-block;
+    border-radius:50%;
+    font-size: 20px;
+}
+
+.contact_right ul li:hover{
+    background-color: white;
+    color: #00ADB5;
+    cursor: pointer;
+}
+
+.main_menu{
+    height: 100px;
+    width: 100%;
+    /* margin-top: 10px; */
+    background-color:white;
+    position: sticky;
+    float: left;
+    top: 0px;
+    box-shadow: 0px 0px 20px 0px grey;
+}
+
+.hospital_logo{
+    height: 100px;
+    width: 40%;
+    float: left;
+    cursor: pointer;
+    /* background-color: blueviolet; */
+}
+
+.hospital_logo img{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.hospital_option{
+    height: 100px;
+    width: 60%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: violet; */
+}
+
+.hospital_option ul{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.hospital_option ul li{
+    display: inline-block;
+    color: black;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.hospital_option .home{
+    display: inline-block;
+    color: #00ADB5;
+    text-align: center;
+    margin-left: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.hospital_option ul li:hover{
+    color: #00ADB5;
+}
+
+.hospital_option.active{
+    color: #00ADB5;
+}
+
+.hospital_option button{
+    background-color: none;
+    border: none;
+    font-size: 22px;
+    display: none;
+}
+
+@media(max-width:782px){
+    .hospital_option ul li{
+        display: none;
+    }
+    .hospital_option .home{
+        display: none;
+    }
+    .hospital_logo{
+        width: 60%;
+    }
+    .hospital_option{
+        width: 40%;
+    }
+    .hospital_option button{
+        display: inline-block;
+        background: none;
+        font-size: 30px;
+        margin-top: 15px;
+        margin-left: 60%;
+    }
+}
+
+.sliding_section{
+    height: 900px;
+    width:100%;
+    float: left;
+    background-image:url('doctor.jpg');
+    background-size: 100% 100%;
+    margin-bottom: 10%;
+}
+
+.sliding_effect{
+    height:900px;
+    width:100%;
+    background-image:linear-gradient(to right,rgba(0,173,181, 1.0),rgba(0,173,181, 0.5),rgba(0,173,181,0.1));
+}
+
+.sliding_effect_left{
+    height: 100%;
+    width: 100%;
+}
+.heading1{
+    margin-left:50px;
+    padding-top: 100px;
+    height: 200px;
+    width: 60%;
+    font-size: 40px;
+    color: white;
+    margin-bottom:-100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraph1{
+    height: 25%;
+    width: 50%;
+    font-size:20px;
+    margin-top: 100px;
+    color: white;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button1{
+    height: 100px;
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 110px;
+    font-family: sans-serif;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    color: #00ADB5;
+    cursor: pointer;
+}
+
+.button1:hover{
+    box-shadow:2px 2px 15px white ;
+}
+
+
+@media(max-width: 780px){
+    .heading1{
+        font-size: 40px;
+    }
+}
+
+@media(min-width: 950px){
+    .heading1{
+        font-size: 60px;
+        margin-bottom:-100px;
+    }
+}
+
+@media(min-width: 1000px){
+    .heading1{
+        font-size: 70px;
+        margin-bottom:-100px;
+    }
+}
+
+@media(min-width: 1200px){
+    .heading1{
+        font-size: 80px;
+        margin-bottom:-100px;
+    }
+}
+
+@media(max-width: 780px){
+    .paragraph1{
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 950px){
+    .paragraph1{
+        font-size: 25px;
+        margin-top: 130px;
+    }
+}
+
+@media(min-width: 1100px){
+    .paragraph1{
+        font-size: 30px;
+        margin-top: 150px;
+    }
+}
+
+@media(min-width: 1200px){
+    .paragraph1{
+        font-size: 30px;
+        margin-top: 200px;
+    }
+}
+
+@media(max-width: 500px){
+    .button1{
+        margin-top: 110px;
+    }
+}
+@media(min-width: 780px){
+    .button1{
+        margin-top: 110px;
+    }
+}
+
+@media(min-width: 950px){
+    .button1{
+        margin-top: 70px;
+    }
+}
+
+@media(min-width: 1100px){
+    .button1{
+        margin-top: 75px;
+    }
+}
+
+@media(min-width: 1200px){
+    .button1{
+        margin-top: 100px;
+    }
+}
+
+.what_we_do{
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    float: left;
+    /* background-color: lightgreen; */
+}
+
+.DNA{
+    height: 500px;
+    width: 100%;
+    float: left;
+    /* background-color: goldenrod; */
+}
+
+.dna{
+    height: 400px;
+    width: 100%;
+    float: left;
+    /* background-color: fuchsia; */
+    background-position-x: left;
+    background-image: url('https://preview.uideck.com/items/medic/assets/img/shapes/shape-1.svg');
+    background-repeat: no-repeat;
+    background-size: 30% 100%;
+}
+
+.what_we_do h2{
+    font-size: 25px;
+    color: #00ADB5;
+    margin-bottom: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.what_we_do h1{
+    color: #393E46;
+    font-size: 52px;
+    margin-bottom: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.what_we_do p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.what_we_do .heart_rate_image{
+    text-align: center;
+    height: 380px;
+    width: 100%;
+    float: left;
+    background-size: 100% 100%;
+    border: none;
+    margin-bottom: 50%;
+}
+
+.member{
+    height: 250px;
+    width: 100%;
+    /* background-color: lightsteelblue; */
+    float: left;
+}
+
+.big-box{
+    height: 250px;
+    width: 80%;
+    /* background-color: black; */
+    float: left;
+    margin-left: 70px;
+}
+
+.Specialist_Doctors{
+    height: 250px;
+    width: 22%;
+    /* background-color: greenyellow; */
+    float: left;
+}
+
+.Specialist_Doctors img{
+    margin-left: 40px;
+}
+
+.Specialist_Doctors p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Frequent_Visits{
+    height: 250px;
+    width: 22%;
+    /* background-color: yellow; */
+    float: left;
+    margin-left: 4%;
+}
+
+.Frequent_Visits img{
+    margin-left: 40px;
+}
+
+.Frequent_Visits p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Cordial_Administration{
+    height: 250px;
+    width: 22%;
+    /* background-color: greenyellow; */
+    float: left;
+    margin-left: 4%;
+}
+
+.Cordial_Administration img{
+    margin-left: 40px;
+}
+
+.Cordial_Administration p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Specialized_Pharmacy{
+    height: 250px;
+    width: 22%;
+    /* background-color: yellow; */
+    float: left;
+    margin-left: 4%;
+}
+
+.Specialized_Pharmacy img{
+    margin-left: 40px;
+}
+
+.Specialized_Pharmacy p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width:700px){
+    .member{
+        height:500px;
+    }
+    .Specialist_Doctors{
+        width: 50%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .Specialist_Doctors img{
+        width: 22%;
+        margin-left: 40%;
+    }
+    .Frequent_Visits{
+        width: 50%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 20px;
+        height: auto;
+    }
+    .Frequent_Visits img{
+        width: 22%;
+        margin-left: 40%;
+    }
+    .Cordial_Administration{
+        width: 50%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 20px;
+        height: auto;
+    }
+    .Cordial_Administration img{
+        width: 22%;
+        margin-left: 40%;
+    }
+    .Specialized_Pharmacy{
+        width: 50%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 20px;
+        height: auto;
+    }
+    .Specialized_Pharmacy img{
+        width: 22%;
+        margin-left: 40%;
+    }
+}
+@media screen and (max-width:900px){
+    .member{
+        height: 760px;
+    }
+    .Specialist_Doctors{
+        width: 80%;
+        margin-left: 2%;
+        margin-right: 10%;
+        height: auto;
+    }
+    .Specialist_Doctors img{
+        width: 22%;
+        margin-left: 40%;
+    }
+    .Frequent_Visits{
+        width: 80%;
+        margin-left: 2%;
+        margin-right: 10%;
+        height: auto;
+    }
+    .Frequent_Visits img{
+        width: 22%;
+        margin-left: 40%;
+    }
+    .Cordial_Administration{
+        width: 80%;
+        margin-left: 2%;
+        margin-right: 10%;
+        height: auto;
+    }
+    .Cordial_Administration img{
+        width: 22%;
+        margin-left: 40%;
+    }
+    .Specialized_Pharmacy{
+        width: 80%;
+        margin-left: 2%;
+        margin-right: 10%;
+    }
+    .Specialized_Pharmacy img{
+        width: 22%;
+        margin-left: 40%;
+    }
+}
+
+.About_Us{
+    height: 650px;
+    width: 100%;
+    text-align: center;
+    float: left;
+    /* background-color: darkolivegreen; */
+    margin-bottom: 15%;
+    background-image: url('https://preview.uideck.com/items/medic/assets/img/shapes/shape-2.svg');
+    background-repeat: no-repeat;
+    background-size: 20% 50%;
+    background-position-x: right;
+}
+
+.about_us{
+    height: 1000px;
+    width: 100%;
+    float: left;
+    margin-top: 5%;
+    text-align: center;
+    
+}
+
+.about_us h2{
+    font-size: 25px;
+    color: #00ADB5;
+    margin-bottom: 22px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about_us h1{
+    color: #393E46;
+    font-size: 52px;
+    margin-bottom: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about_us p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about_us button{
+    height: 80px;
+    width: 20%;
+    font-size: 25px;
+    margin-top: 30px;
+    /* text-align: center; */
+    border-radius: 20px;
+    background-color: #00ADB5;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+@media screen and (min-width:1200px) {
+    .about_us button{
+        width: 20%;
+        height: 80px;
+    }  
+}
+@media screen and (max-width:900px) {
+    .about_us button{
+        width: 20%;
+        height: 100px;
+    }  
+}
+@media screen and (max-width:715px) {
+    .about_us button{
+        width: 20%;
+        height: 100px;
+    }  
+}
+@media screen and (max-width:500px) {
+    .about_us button{
+        width: 20%;
+        height: 100px;
+    }  
+}
+
+.about_us button:hover{
+    box-shadow: 2px 2px 20px #8bf4f9;
+}
+
+.doctor_grp{
+    text-align: center;
+    height: 380px;
+    width: 100%;
+    float: left;
+    background-size: 100% 100%;
+    border: none;
+    /* margin-bottom: 100%; */
+}
+
+.Services{
+    height: 300px;
+    width: 100%;
+    float: left;
+    background-image: url('https://preview.uideck.com/items/medic/assets/img/shapes/shape-3.svg');
+    background-position-x: left;
+    background-repeat: no-repeat;
+    background-size: 20% 50%;
+    /* background-color: darkkhaki; */
+}
+
+.services{
+    height: 1000px;
+    width: 100%;
+    float: left;
+    margin-top: 5%;
+    text-align: center;
+    
+}
+
+.services h2{
+    font-size: 25px;
+    color: #00ADB5;
+    margin-bottom: 22px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.services h1{
+    color: #393E46;
+    font-size: 52px;
+    margin-bottom: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.services p{
+    font-size: 18px;
+    margin: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Speciality{
+    height: auto;
+    width: 100%;
+    float: left;
+    /* background-color:limegreen; */
+    margin-top: 5%;
+}
+
+.service_content{
+    height: auto;
+    width: 95%;
+    /* background-color: hotpink; */
+    float: left;
+    margin-left: 2.5%;
+}
+
+@media screen and (max-width:799px) {
+    .Services{
+        /* background-color: grey; */
+        margin-top: 10%;
+        width: 100%;
+    }
+}
+@media screen and (max-width:700px) {
+    .Services{
+        /* background-color:purple; */
+        margin-top: 12%;
+        width: 100%;
+    }
+}
+@media screen and (max-width:699px) {
+    .Services{
+        height: 350px;
+        /* background-color:orange; */
+        margin-top: 15%;
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px) {
+    .Services{
+        height: 350px;
+        /* background-color:orange; */
+        margin-top: 17%;
+        width: 100%;
+    }
+}
+
+.Cardiology{
+    height: 300px;
+    width: 23.5%;
+    float: left;
+    /* background-color: orange; */
+    padding:40px;
+    border-radius: 50px;
+    margin-left: 24px;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    box-shadow: 0px 0px 5px 2.5px #00ADB5;
+    
+ }
+
+ .heart{
+    font-size: 60px;
+    margin-bottom: 15px;
+ }
+
+ .Cardiology h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .Cardiology p{
+    font-size: 17px;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .arrow {
+    font-size: 20px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .Cardiology:hover{
+    color: white;
+    cursor: pointer;
+    background-color: rgb(53, 212, 240);
+ }
+
+
+@media screen and (max-width:1300px) {
+    .Cardiology{
+        /* background-color: green; */
+        width: 23.5%;
+    }
+}
+@media screen and (max-width:1150px) {
+    .Cardiology{
+        /* background-color: green; */
+        width: 30%;
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width:1100px) {
+    .Cardiology{
+        /* background-color: black; */
+        margin-left: 2%;
+        width: 39%;
+    }
+}
+@media screen and (max-width:950px) {
+    .Cardiology{
+        /* background-color: red; */
+        margin-left: 5%;
+        width: 75%;
+    }
+}
+@media screen and (max-width:850px) {
+    .Cardiology{
+        /* background-color: orange; */
+        margin-left: 5%;
+        width: 75%;
+    }
+}
+@media screen and (max-width:799px) {
+    .Cardiology{
+        /* background-color: grey; */
+        margin-left: 5%;
+        width: 75%;
+    }
+}
+@media screen and (max-width:700px) {
+    .Cardiology{
+        /* background-color:purple; */
+        margin-left: 15%;
+        width: 50%;
+    }
+}
+
+
+.Testimonial{
+    height: 550px;
+    width: 100%;
+    float: left;
+    /* background-color: darkkhaki; */
+    background-image: url('https://preview.uideck.com/items/medic/assets/img/shapes/shape-4.svg');
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: 20% 80%;
+    margin-bottom: 5%;
+}
+
+.testimonial{
+    height: 350px;
+    width: 100%;
+    float: left;
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 5%;
+    
+}
+
+.testimonial h2{
+    font-size: 25px;
+    color: #00ADB5;
+    margin-bottom: 22px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.testimonial h1{
+    color: #393E46;
+    font-size: 52px;
+    margin-bottom: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quote{
+    height: 330px;
+    width: 70%;
+    margin-left: 15% ;
+    /* background-color: rgb(206, 146, 25); */
+    /* background-image: url('Quote.png'); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    text-align: center;
+}
+
+.quote p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    /* background-color: cornflowerblue; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quote h3{
+    color: #00ADB5;
+    /* background-color: chocolate; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quote .img1{
+    height: 130px;
+    
+}
+.quote img{
+    height: 100px;
+    margin-left: 15px;
+}
+
+@media screen and (max-width:850px) {
+    .Testimonial{
+        height: 650px;
+        margin-bottom: 5%;
+    }
+    .quote{
+        /* margin-left: 5%; */
+        height: auto;
+    }
+    .quote{
+        /* background-color: orange; */
+        /* margin-left: 5%; */
+        width: 75%;
+    }
+}
+@media screen and (max-width:799px) {
+    .Testimonial{
+        height: 600px;
+        /* margin-bottom: 5%; */
+    }
+    .quote{
+        /* margin-left: 5%; */
+        height: auto;
+    }
+    .quote{
+        /* background-color: grey; */
+        /* margin-left: 5%; */
+        width: 90%;
+    }
+}
+@media screen and (max-width:700px) {
+    .Testimonial{
+        height: 600px;
+        margin-bottom: 5%;
+    }
+    .quote{
+        height: auto;
+        /* background-color: blueviolet; */
+        margin-left: 5%;
+    }
+    .quote img{
+        /* background-color:purple; */
+        margin-right: 5%;
+        width: 10%;
+    }
+}
+
+.Frequently_asked_que{
+    height: 800px;
+    width: 100%;
+    float: left;
+    background-color: #00ADB5;    
+    margin-bottom: 5%;
+}
+
+.Image{
+    height: 630px;
+    width: 45%;
+    margin-top: 7.5%;
+    margin-right: 5%;
+    float: left;
+    /* background-color: red; */
+}
+
+.Image img{
+    height: 100%;
+    width: 100%;
+}
+
+.Questions{
+    height: 800px;
+    width: 50%;
+    float: left;
+    background-image: url('https://preview.uideck.com/items/medic/assets/img/shapes/shape-8.svg');
+    background-position: 110% 50%;
+    background-repeat: no-repeat;
+    /* background-color:violet; */
+}
+
+.Questions h2{
+    font-size: 30px;
+    margin-top: 15%;
+    color: white;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Questions h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.que1{
+    height: 50px;
+    width: 80%;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #08BBC4;
+    margin-top: 20px;
+    padding: 30px 60px 10px 30px;
+    /* padding-left: 20px; */
+    font-size: 22px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgba(8,187,196 , 0.7);
+}
+
+.que1 i{
+    float: right;
+    position: relative;
+}
+
+@media screen and (max-width:1300px) {
+    .Frequently_asked_que{
+        height: auto;
+        /* background-color: green; */
+        width: 100%;
+    }
+}
+@media screen and (max-width:1150px) {
+    .Frequently_asked_que{
+        /* background-color: green; */
+        height: auto;
+        width: auto;
+    }
+    .Image{
+        height: auto;
+        width: 100%;
+    }
+    .Questions{
+        height: auto;
+        margin-left: 10%;
+        width: 70%;
+        background: none;
+    }
+}
+@media screen and (max-width:1100px) {
+    .Frequently_asked_que{
+        /* background-color: black; */
+        height: auto;
+        width: auto;
+    }
+    .Image{
+        height: auto;
+        width: 100%;
+    }
+}
+@media screen and (max-width:950px) {
+    .Frequently_asked_que{
+        /* background-color: red; */
+        height: auto;
+        width: auto;
+    }
+    .Image{
+        height: auto;
+        width: 100%;
+    }
+}
+@media screen and (max-width:850px) {
+    .Frequently_asked_que{
+        /* background-color: orange; */
+        height: auto;
+        width: auto;
+    }
+    .Image{
+        height: auto;
+        width: 100%;
+    }
+}
+@media screen and (max-width:799px) {
+    .Frequently_asked_que{
+        /* background-color: grey; */
+        height: auto;
+        width: auto;
+    }
+    .Image{
+        height: auto;
+        width: 100%;
+    }
+}
+@media screen and (max-width:700px) {
+    .Frequently_asked_que{
+        /* background-color:purple; */
+        height: auto;
+        width: auto;
+    }
+    .Image{
+        height: auto;
+        width: 100%;
+    }
+}
+
+
+.Team{
+    height: 300px;
+    width: 100%;
+    float: left;
+    background-image: url('https://preview.uideck.com/items/medic/assets/img/shapes/shape-2.svg');
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: 20% 100%;
+    /* background-color: darkkhaki; */
+    margin-bottom: 1px;
+}
+
+.team{
+    height: 1000px;
+    width: 100%;
+    float: left;
+    margin-top: 5%;
+    text-align: center;
+    
+}
+
+.team h2{
+    font-size: 25px;
+    color: #00ADB5;
+    margin-bottom: 22px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.team h1{
+    color: #393E46;
+    font-size: 52px;
+    margin-bottom: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.team p{
+    font-size: 20px;
+    margin: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Meet_Doctors{
+    height: 500px;
+    width: 100%;
+    float: left;
+    /* background-color: red; */
+}
+.meet_doctors{
+    height: 600px;
+    width: 100%;
+    float: left;
+    background-image: url('https://preview.uideck.com/items/medic/assets/img/shapes/shape-5.svg');
+    background-repeat: no-repeat;
+    background-position-y:bottom;
+    /* background-color: orange; */
+    margin-bottom: 15%;
+}
+
+.doctor1{
+    height: 400px;
+    width: 19.5%;
+    margin: 2.5%;
+    float: left;
+    /* background-color: wheat;     */
+    border-radius: 20px;
+    border: 2px black solid ;
+    /* text-align: center; */
+}
+
+.doctor1:hover{
+    border: 2px #00ADB5 solid;
+    box-shadow: 0px 0px 15px 0px #00ADB5;
+}
+
+.doctor2{
+    height: 400px;
+    width: 19.5%;
+    margin: 2.5%;
+    float: left;
+    /* background-color: wheat;     */
+    border-radius: 20px;
+    border: 2px black solid ;
+    /* text-align: center; */
+}
+
+.doctor2:hover{
+    border: 2px #00ADB5 solid;
+    box-shadow: 0px 0px 15px 0px #00ADB5;
+}
+
+.doctor3{
+    height: 400px;
+    width: 19.5%;
+    margin: 2.5%;
+    float: left;
+    /* background-color: wheat;     */
+    border-radius: 20px;
+    border: 2px black solid ;
+    /* text-align: center; */
+}
+
+.doctor3:hover{
+    border: 2px #00ADB5 solid;
+    box-shadow: 0px 0px 15px 0px #00ADB5;
+}
+
+.doctor4{
+    height: 400px;
+    width: 19.5%;
+    margin: 2.5%;
+    float: left;
+    /* background-color: wheat;     */
+    border-radius: 20px;
+    border: 2px black solid ;
+    /* text-align: center; */
+}
+
+.doctor4:hover{
+    border: 2px #00ADB5 solid;
+    box-shadow: 0px 0px 15px 0px #00ADB5;
+}
+
+.doctor1 img{
+    margin-top: 5%;
+    margin-left: 12%;
+    height: 70%;
+    width: 75%;
+}
+.doctor2 img{
+    margin-top: 5%;
+    margin-left: 12%;
+    height: 70%;
+    width: 75%;
+}
+.doctor3 img{
+    margin-top: 5%;
+    margin-left: 12%;
+    height: 70%;
+    width: 75%;
+}
+.doctor4 img{
+    margin-top: 5%;
+    margin-left: 12%;
+    height: 70%;
+    width: 75%;
+}
+
+/* .doctor1 .D1_3{
+    border-radius: 50%;
+    position: relative;
+    color: #00ADB5;
+    background-color:white ;
+    font-size: 25px;
+    right: 100px;
+} */
+
+.doctor1 p{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.doctor1 p:hover{
+    color: #00ADB5;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.doctor1 h5{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.doctor2 p{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;  
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.doctor2 p:hover{
+    color: #00ADB5;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.doctor2 h5{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.doctor3 p{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+.doctor3 p:hover{
+    color: #00ADB5;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.doctor3 h5{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.doctor4 p{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px; 
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.doctor4 p:hover{
+    color: #00ADB5;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.doctor4 h5{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width:850px) {
+    .meet_doctors{
+        /* background-color:purple; */
+        height: auto;
+        width: 95%;
+        margin-left: 5%;
+    }
+    .doctor1{
+        margin: 0px;
+        height: auto;
+        width: 30%;
+        display: inline-block;
+    }
+    .doctor2{
+        margin: 0px;
+        height: auto;
+        width: 30%;
+        display: inline-block;
+    }
+    .doctor3{
+        margin: 0px;
+        height: auto;
+        width: 30%;
+        display: inline-block;
+    }
+    .doctor4{
+        height: auto;
+        width: 100%;
+        display: none;
+    }
+}
+@media screen and (max-width:799px) {
+    .meet_doctors{
+        /* background-color:silver; */
+        height: auto;
+        width: 95%;
+        /* margin-left: 10%; */
+    }
+    .doctor1{
+        height: auto;
+        width: 40%;
+        display: inline-block;
+        margin-left:5% ;
+    }
+    .doctor2{
+        margin: 0px;
+        height: auto;
+        width: 40%;
+        margin-left:5% ;
+        display: inline-block;
+    }
+    .doctor3{
+        height: auto;
+        width: 100%;
+        display: none;
+    }
+    .doctor4{
+        height: auto;
+        width: 100%;
+        display: none;
+    }
+}
+@media screen and (max-width:700px) {
+    .meet_doctors{
+        /* background-color:purple; */
+        height: auto;
+        width: 90%;
+        margin-left: 40px;
+    }
+    .doctor1{
+        height: auto;
+        width: 50%;
+        margin-left: 10%;
+    }
+    .doctor2{
+        height: auto;
+        width: 100%;
+        display: none;
+    }
+    .doctor3{
+        height: auto;
+        width: 100%;
+        display: none;
+    }
+    .doctor4{
+        height: auto;
+        width: 100%;
+        display: none;
+    }
+}
+@media screen and (max-width:501px) {
+    .meet_doctors{
+        /* background-color:purple; */
+        height: 500px;
+        width: auto;
+        margin-left: 40px;
+    }
+    .doctor1{
+        margin: 0px;
+        height: 100%;
+        width: 50%;
+        
+    }
+    .doctor2{
+        height: auto;
+        width: 100%;
+        display: none;
+    }
+    .doctor3{
+        height: auto;
+        width: 100%;
+        display: none;
+    }
+    .doctor4{
+        height: auto;
+        width: 100%;
+        display: none;
+    }
+}
+
+.Subscribe_Our_Newsletter{
+    height: 700px;
+    width: 100%;
+    float: left;
+    margin-bottom: 10%;
+}
+
+.subscribe_our_newsletter{
+    margin-top: 10%;
+    height: 700px;
+    width: 100%;
+    float: left;
+    /* background-color: lime; */
+    background-image: url('subscribe_doctor.jpg');
+    background-size: 100% 100%;
+    margin-bottom: 50%;
+} 
+
+.subscribe_our_newsletter h1{
+    margin-left: 25px;
+    margin-top: 7.5%;
+    font-size: 50px;
+    width: 55%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subscribe_our_newsletter p{
+    margin-left: 25px;
+    margin-top: 3%;
+    font-size: 22px;
+    width: 55%;
+    margin-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subscribe_our_newsletter input{
+    margin-left: 25px;
+    height: 50px;
+    width: 45%;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    box-shadow: 0px 0px 10px 2px #00ADB5;
+}
+
+.subscribe_our_newsletter button{
+    height: 50px;
+    width: 20%;
+    background-color: #00ADB5;
+    color: white;
+    margin-left: 25px;
+    margin-top: 2%;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.subscribe_our_newsletter button:hover{
+    box-shadow: 0px 0px 10px 0px #00ADB5;
+    cursor: pointer;
+}
+
+.A{
+    height: 150px;
+    width: 100%;
+    margin-bottom: 2%;
+    /* background-color: hotpink; */
+}
+
+.subscribe_our_newsletter i{
+    margin-top: 5%;
+    margin-left: 25px;
+    font-size: 40px;
+    color: #00ADB5;
+}
+.subscribe_our_newsletter span{
+    margin-top: 5%;
+    margin-left: 50px;
+    font-size: 40px;
+    /* margin-bottom: 10%; */
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subscribe_our_newsletter .A .P{
+    margin-top: 0px;
+    margin-bottom:0%;
+    margin-left: 15%;
+    font-size: 40px;
+    color: #393E46;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.B{
+    height: 150px;
+    width: 100%;
+    margin-top: 0px;
+    /* background-color: aquamarine; */
+}
+
+.B pre{
+    font-size: 40px;
+    color: #00ADB5;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.B b{
+    margin-left: 20px;
+    font-size: 24.9px;
+    margin-top: 0%;
+    margin-right: 20px;
+}
+
+.B li{
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    display:inline-block ;
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.B i{
+    text-align: center;
+    font-size: 20px;    
+    margin-left: -2.5px;
+    margin-top: 12px;
+    color: white;
+}
+
+.B li:hover{
+    background-color: white;
+    color: #00ADB5;
+    cursor: pointer;
+}
+
+.B i:hover{
+    color: #00ADB5;
+    cursor: pointer;
+}
+
+@media screen and (max-width:900px) {
+    .subscribe_our_newsletter{
+        /* background-color:purple; */
+        height: 750px;
+        width: 100%;
+        margin-bottom: 20%;
+    }
+    .B{
+        height: auto;
+        width: auto;
+    }
+    .p{
+        margin-left: 15%;
+    }
+    .B pre{
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width:700px) {
+    .subscribe_our_newsletter{
+        /* background-color:purple; */
+        height: 750px;
+        width: 100%;
+        margin-bottom: 20%;
+    }
+    .B{
+        height: auto;
+        width: auto;
+    }
+    .p{
+        margin-left: 15%;
+    }
+    .B pre{
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width:501px) {
+    .subscribe_our_newsletter{
+        /* background-color:red; */
+        height: 750px;
+        margin-bottom: 15%;
+        width: 100%;
+    }
+    .B{
+        margin-top: 2%;
+        height: auto;
+        width: auto;
+    } 
+    .p{
+        margin-left: 15%;
+    }
+}
+@media screen and (min-width:500px) {
+    .subscribe_our_newsletter{
+        /* background-color:red; */
+        height: 750px;
+        margin-bottom: 15%;
+        width: 100%;
+    }
+    .B{
+        margin-top: 2%;
+        height: auto;
+        width: auto;
+    } 
+    .p{
+        margin-left: 15%;
+    }
+}
+
+.Blog_Post{
+    height: 250px;
+    width: 100%;
+    float: left;
+    background-position-x: right;
+    background-position-y:bottom ;
+    background-repeat: no-repeat;
+    background-size: 20% 100%;
+    /* background-color: darkkhaki; */
+    margin-bottom: 1px;
+    margin-top: 10%;
+    background-image: url('https://preview.uideck.com/items/medic/assets/img/shapes/shape-6.svg');
+}
+
+.blog_post{
+    height: 250px;
+    width: 100%;
+    float: left;
+    /* margin-top: 5%; */
+    text-align: center;
+    
+}
+
+.blog_post h2{
+    font-size: 25px;
+    color: #00ADB5;
+    margin-bottom: 22px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog_post h1{
+    color: #393E46;
+    font-size: 52px;
+    margin-bottom: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog_post p{
+    margin: 3%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Latest_New{
+    height: 500px;
+    width: 100%;
+    float: left;
+    /* margin-bottom: 7.5%; */
+}
+
+.latest_new{
+    height: 500px;
+    width: 100%;
+    /* background-color: hotpink; */
+    float: left;
+}
+
+.section1{
+    height: 100%;
+    width: 30%;
+    /* background-color: aquamarine; */
+    float: left;
+    border-radius: 30px;
+    margin-left: 30px;
+    /* border: 0.5px solid grey; */
+}
+
+.section1 img{
+    float: left;
+    height: 50%;
+    width: 100%;
+}
+
+.section1 h1{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section1 p{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Arrow{
+    margin-top: 25px;
+    font-size: larger;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+@media screen and (max-width:1000px) {
+    .latest_new{
+        /* background-color:gold; */
+        height: auto;
+        width: 97%;
+        margin-bottom: 5%;
+
+    }
+    .section1{
+        margin: 0px;
+        height: auto;
+        width: 30%;
+        margin-left: 3%;
+        display: inline-block;
+    }
+    .Arrow{
+        margin-left: 15px;
+    }
+}
+@media screen and (max-width:900px) {
+    
+    .latest_new{
+        /* background-color:orange; */
+        height: auto;
+        width: 97%;
+        margin-bottom: 5%;
+
+    }
+    .section1{
+        margin: 0px;
+        height: auto;
+        width: 30%;
+        margin-left: 3%;
+        display: inline-block;
+    }
+    .Arrow{
+        margin-left: 15px;
+    }
+}
+@media screen and (max-width:850px) {
+    .Latest_New{
+        margin-bottom: 60%;
+    }
+    .latest_new{
+        /* background-color:purple; */
+        height: auto;
+        width: 95%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+
+    }
+    .section1{
+        margin-top: 2%;
+        margin-left: 5%;
+        height: auto;
+        width: 40%;
+        display: inline-block;
+    }
+    .Arrow{
+        margin-left: 15px;
+    }
+}
+@media screen and (max-width:799px) {
+    .Blog_Post{
+        margin-top: 20%;
+    }
+    .Latest_New{
+        margin-bottom: 150%;
+    }
+    .latest_new{
+        /* background-color:silver; */
+        height: auto;
+        width: 95%;
+        margin-bottom: 5%;
+
+    }
+    .section1{
+        height: auto;
+        width: 60%;
+        display: inline-block;
+        margin-left:10% ;
+    }
+    .Arrow{
+        margin-left: 15px;
+    }
+}
+@media screen and (max-width:700px) {
+    .Blog_Post{
+        margin-top: 20%;
+    }
+    .Latest_New{
+        margin-bottom: 170%;
+    }
+    .latest_new{
+        /* background-color:purple; */
+        height: auto;
+        width: 90%;
+        margin-left: 40px;
+    }
+    .section1{
+        margin-top: 2%;
+        height: auto;
+        width: 65%;
+        margin-left: 10%;
+    }
+    .Arrow{
+        margin-left: 15px;
+    }
+}
+@media screen and (max-width:501px) {
+    .latest_new{
+        /* background-color:red; */
+        height: 500px;
+        width: 90%;
+        margin-left: 40px;
+        margin-bottom: 170%;
+}
+    .section1{
+        margin-top: 2%;
+        height: 100%;
+        width: 50%;
+    }
+    .Arrow{
+        margin-left: 15px;
+    }
+}
+
+.Appoinment{
+    height: 290px;
+    width: 97%;
+    float: left;
+    /* background-color: darkkhaki; */
+    margin-bottom: 1%;
+}
+
+.appoinment{
+    height: 290px;
+    width: 100%;
+    float: left;
+    /* margin-top: 5%; */
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.appoinment h2{
+    font-size: 25px;
+    color: #00ADB5;
+    margin-bottom: 22px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.appoinment h1{
+    color: #393E46;
+    font-size: 52px;
+    margin-bottom: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.appoinment p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Form{
+    height: 750px;
+    width: 100%;
+    float: left;
+    margin-bottom: 1%;
+}
+
+.form{
+    height: 750px;
+    width: 100%;
+    float: left;
+    margin-bottom: 1%;
+    /* background-color: darksalmon; */
+    background-position-x: left;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: 20% 100%;
+    background-image: url('https://preview.uideck.com/items/medic/assets/img/shapes/shape-6.svg');
+}
+
+.name{
+    height: 65px;
+    width: 37%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.name1{
+    height: 65px;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.name2{
+    height: 65px;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.subject{
+    height: 65px;
+    width: 83%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.text{
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.form button{
+    height: 70px;
+    width: 5%;
+    color: white;
+    background-color: #00ADB5;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 5%;
+    border: none;
+    border-radius: 10px;
+}
+
+.form button:hover{
+    box-shadow: 0px 0px 10px 0px #00ADB5;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1300px) {
+    .Appoinment{
+        margin-top: 5%;
+    }
+    .form{
+        /* background-color:purple; */
+        height: auto;
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 3%;
+    }
+    .name{
+        margin-top: 2%;
+        height: 50px;
+        width: 37.5%;
+        /* margin-right: 10%; */
+    }
+    .name1{
+        margin-top: 2%;
+        height: 50px;
+        width: 42%;
+        /* margin-right: 10%; */
+
+    }
+    .name2{
+        margin-top: 2%;
+        height: 50px;
+        width: 38%;
+    }
+    .subject{
+        width: 85%;
+    }
+    .text{
+        width: 85%;
+        margin-bottom: 5%;
+    }
+    .form button{
+        width: 20%;
+        height: 50px;
+        margin-left: 50px;
+        
+    }
+} 
+@media screen and (max-width:1100px) {
+    .Appoinment{
+        margin-top: 5%;
+    }
+    .form{
+        /* background-color:purple; */
+        height: auto;
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 3%;
+    }
+    .name{
+        margin-top: 2%;
+        height: 50px;
+        width: 85%;
+    }
+    .name1{
+        margin-top: 2%;
+        height: 50px;
+        width: 90%;
+    }
+    .name2{
+        margin-top: 2%;
+        height: 50px;
+        width: 85%;
+    }
+    .subject{
+        width: 85%;
+    }
+    .text{
+        width: 85%;
+        margin-bottom: 5%;
+    }
+    .form button{
+        width: 20%;
+        height: 50px;
+        margin-left: 50px;
+        
+    }
+} 
+@media screen and (max-width:1000px) {
+    .Appoinment{
+        margin-top: 5%;
+    }
+    .form{
+        /* background-color:purple; */
+        height: auto;
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 3%;
+    }
+    .name{
+        margin-top: 2%;
+        height: 50px;
+        width: 87%;
+    }
+    .name1{
+        margin-top: 2%;
+        height: 50px;
+        width: 92%;
+    }
+    .name2{
+        margin-top: 2%;
+        height: 50px;
+        width: 87%;
+    }
+    .subject{
+        width: 87%;
+    }
+    .text{
+        width: 87%;
+        margin-bottom: 5%;
+    }
+    .form button{
+        width: 20%;
+        height: 50px;
+        margin-left: 50px;
+        
+    }
+} 
+@media screen and (max-width:900px) {
+    .Appoinment{
+        margin-top: 5%;
+    }
+    .form{
+        /* background-color:purple; */
+        height: auto;
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 3%;
+    }
+    .name{
+        margin-top: 2%;
+        height: 50px;
+        width: 80%;
+    }
+    .name1{
+        margin-top: 2%;
+        height: 50px;
+        width: 87%;
+    }
+    .name2{
+        margin-top: 2%;
+        height: 50px;
+        width: 80%;
+    }
+    .subject{
+        width: 80%;
+    }
+    .text{
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    .form button{
+        width: 30%;
+        height: 50px;
+        margin-left: 50px;
+        
+    }
+} 
+@media screen and (max-width:700px) {
+    .Appoinment{
+        margin-top: 25%;
+    }
+    .form{
+        /* background-color:purple; */
+        height: auto;
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 3%;
+    }
+    .name{
+        margin-top: 5%;
+        height: 50px;
+        width: 80%;
+    }
+    .name1{
+        margin-top: 5%;
+        height: 50px;
+        width: 92%;
+    }
+    .name2{
+        margin-top: 5%;
+        height: 50px;
+        width: 80%;
+    }
+    .subject{
+        width: 80%;
+    }
+    .text{
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    .form button{
+        width: 50%;
+        height: 50px;
+        margin-left: 50px;
+        
+    }
+} 
+ @media screen and (max-width:501px) {
+    .Appoinment{
+        margin-top: 25%;
+    }
+    .form{
+        /* background-color:red; */
+        height: 500px;
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 3%;
+    }
+    .name{
+        margin-top: 5%;
+        height: 100%;
+        width: 100%;
+    }
+    .name1{
+        margin-top: 5%;
+        height: 100%;
+        width: 100%;
+    }
+    .name2{
+        margin-top: 5%;
+        height: 100%;
+        width: 100%;
+    }
+    .subject{
+        width: 85%;
+    }
+    .text{
+        width: 90%;
+        margin-bottom: 5%;
+    }
+    .form button{
+        width: 30%;
+        height: 50px;
+        margin-left: 50px; 
+    }
+}
+
+.Footer{
+    height: 600px;
+    width: 100%;
+    /* background-color: azure; */
+}
+.footer{
+    height: 600px;
+    width: 100%;
+    float: left;
+    /* background-color: red; */
+    /* background-repeat: no-repeat; */
+    /* background-size: 100% 100%; */
+    background-image: url('https://www.microsoft.com/en-us/research/uploads/prod/2021/02/MSGenomics-DNA-helix_header_02-2021_1600x600.png');
+}
+
+.div1{
+    height: 60%;
+    width: 25%;
+    float: left;
+    /* background-color: darkkhaki; */
+    margin-left: 3%;
+}
+
+.div1 img{
+    margin: 30px;
+    cursor: pointer;
+
+}
+/* .div1 img:hover{
+    cursor: pointer;
+} */
+
+.div1 p{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div1 li{
+    display: inline-block;
+    margin: 30px;
+}
+
+.div1 li i{
+    color: white;
+    height: 30px;
+    width: 40px;
+    font-size: 20px;
+    margin-left: 7px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #8C96A7;
+    border-radius: 10px;
+}
+
+.div1 li i:hover{
+    cursor: pointer;
+    background-color: #00ADB5;
+}
+
+@media screen and (max-width:1100px) {
+
+    .footer{
+        width: 100%;
+        height: 1400px;
+    }
+    .div1{
+        /* margin-top: 20px; */
+        height: 200px;
+        width: 40%;
+    }
+    .div1 img{
+        margin-top: 5%;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    /* .div1 p{
+        margin-left: 70px;
+        margin-right: 70px;    
+    } */
+    .div1 li{
+        margin-left: 70px;
+        margin-right: 70px;  
+    }
+}
+@media screen and (max-width:900px) {
+
+    .footer{
+        width: 100%;
+        height: 1400px;
+    }
+    .div1{
+        /* margin-top: 20px; */
+        height: 200px;
+        width: 95%;
+    }
+    .div1 img{
+        margin-top: 5%;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .div1 p{
+        margin-left: 70px;
+        margin-right: 70px;    
+    }
+    .div1 li{
+        margin-left: 70px;
+        margin-right: 70px;  
+    }
+}
+@media screen and (max-width:700px) {
+
+    .footer{
+        width: 100%;
+        height: 600px;
+    }
+    .div1{
+        /* margin-top: 20px; */
+        height: 300px;
+        width: 95%;
+    }
+
+}
+@media screen and (max-width:501px) {
+    .footer{
+        width: 100%;
+        height: 500px;
+    }
+    .div1{
+        /* margin-top: 20px; */
+        height: 300px;
+        width: 95%;
+    }
+}
+
+.div2{
+    height: 60%;
+    width: 20%;
+    float: left;
+    /* background: black; */
+}
+
+.div2 h1{
+    color: white;
+    margin: 30px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div2 p{
+    color: white;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div2 p:hover{
+    cursor: pointer;
+    color: #00ADB5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width:1100px) {
+
+    .footer{
+        height: 1400px;
+    }
+    .div2{
+        /* margin-top: 5%; */
+        height: 300px;
+        width: 40%;
+    }
+    .div2 h1{
+        margin-left: 100px;
+    }
+    .div2 p{
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width:900px) {
+
+    .footer{
+        height: 1400px;
+    }
+    .div2{
+        margin-top: 5%;
+        height: 300px;
+        width: 100%;
+    }
+    .div2 h1{
+        margin-left: 100px;
+    }
+    .div2 p{
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width:700px) {
+
+    .footer{
+        height: 600px;
+    }
+    .div2{
+        /* margin-top: 2.5%; */
+        height: 300px;
+        width: 100%;
+    }
+}
+@media screen and (max-width:501px) {
+    .footer{
+        width: 100%;
+        height: 600px;
+    }
+    .div2{
+        /* margin-top: 2.5%; */
+        height: 300px;
+        width: 100%;
+    }
+}
+
+.div3{
+    height: 60%;
+    width: 20%;
+    float: left;
+    /* background: black; */
+}
+
+.div3 h1{
+    color: white;
+    margin: 30px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div3 p{
+    color: white;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div3 p:hover{
+    cursor: pointer;
+    color: #00ADB5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width:1100px) {
+    .footer{
+        height:550px;
+    }
+    .div3{
+        /* margin-top: 20px; */
+        height: 300px;
+        width: 40%;
+    }
+    .div3 h1{
+        margin-left: 100px;
+    }
+    .div3 p{
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width:900px) {
+    .footer{
+        height:550px;
+    }
+    .div3{
+        /* margin-top: 20px; */
+        height: 300px;
+        width: 100%;
+    }
+    .div3 h1{
+        margin-left: 100px;
+    }
+    .div3 p{
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width:700px) {
+    .footer{
+        height:1400px;
+    }
+    .div3{
+        /* margin-top: 20px; */
+        height: 300px;
+        width: 100%;
+    }
+}
+@media screen and (max-width:501px) {
+    .footer{
+        width: 100%;
+        height: 600px;
+    }
+    .div3{
+        margin-top: 20px;
+        height: 300px;
+        width: 100%;
+    }
+}
+
+.div4{
+    height: 300px;
+    width: 30%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    margin-left: 0px;
+    /* background-color: cadetblue; */
+}
+
+.div4 h1{
+    font-size: 25px;
+    margin: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div4 iframe{
+    margin-top: 30px;
+    height: 260px;
+    width: 99%;
+}
+
+@media screen and (max-width:1100px) {
+    .footer{
+        height: 850px;
+    }
+    .div4 {
+        margin-left: 100px;
+        /* margin-right: 100px; */
+        /* margin-top: 10%; */
+        height: 350px;
+        width: 40%;
+    }
+    .div4 iframe{
+        height: 250px;
+        width: 95%;
+        /* margin: 2%; */
+        /* margin-left: 100px; */
+        /* margin-right: 100px; */
+    }
+}
+@media screen and (max-width:900px) {
+    .footer{
+        height: 1400px;
+    }
+    .div4 {
+        /* margin-left: 100px; */
+        /* margin-right: 100px; */
+        margin-top: 10%;
+        height: 350px;
+        width: 80%;
+    }
+    .div4 iframe{
+        height: 250px;
+        width: 95%;
+        /* margin: 2%; */
+        /* margin-left: 100px; */
+        /* margin-right: 100px; */
+    }
+}
+
+@media screen and (max-width:700px) {
+    .footer{
+        height: 1400px;
+    }
+    .div4 {
+        /* margin-top: 20px; */
+        height: 300px;
+        width: 70%;
+    }
+    .div4 iframe{
+        height: 230px;
+        width: 95%;
+        /* margin-left: 100px; */
+
+    }
+}
+@media screen and (max-width:501px) {
+    .footer{
+        width: 100%;
+        height: 600px;
+    }
+    .div4{
+        margin-top: 20px;
+        height: 0px;
+        width: 70%;
+    }
+    .div4 iframe{
+        width: 100%;
+        height: 250px;
+        /* margin-left: 100px; */
+        /* margin: 2%; */
+    }
+}
+
+.last_footer{
+    height: 100px;
+    width: 100%;
+    float: left;
+    margin-top: 2%;
+    /* background-color: darkblue; */
+}
+
+.last_footer h3{
+    color: grey;
+    margin-top: 2%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
