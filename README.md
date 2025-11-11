@@ -7,11 +7,11 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/repo-size/yourusername/Hospital-Web?color=8A2BE2&label=repo%20size&logo=github" />
-  <img src="https://img.shields.io/github/languages/count/yourusername/Hospital-Web?color=FF69B4&label=languages" />
-  <img src="https://img.shields.io/github/last-commit/yourusername/Hospital-Web?color=32CD32&label=last%20commit" />
-  <img src="https://img.shields.io/github/issues/yourusername/Hospital-Web?color=FF4500&label=issues" />
-  <img src="https://img.shields.io/github/stars/yourusername/Hospital-Web?color=FFD700&label=stars" />
+  <img src="https://img.shields.io/badge/repo%20size-1.7%20MB-8A2BE2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/languages-2-FF69B4?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/last%20commit-11%20Nov-32CD32?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/issues-0%20open-FF4500?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/stars-0-FFD700?style=for-the-badge" />
 </p>
 
 **Hospital Web** is a simple, elegant, and fully responsive hospital website built using **HTML5** and **CSS3**.  
